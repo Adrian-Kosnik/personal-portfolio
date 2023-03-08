@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 function Header() {
     return (
@@ -10,18 +11,25 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="/#">Home</a>
+                            <CustomLink className="nav-link" to="/">Home</CustomLink>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="/#">Projects</a>
+                            <CustomLink className="nav-link" to="/Project">Projects</CustomLink>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="/#">Contact</a>
+                            <CustomLink className="nav-link" to="/Contact">Contact</CustomLink>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-)};
+    );
+};
+
+function CustomLink({to, children, ...props}) {
+    const resolvedPath = useResolvedPath(to);
+    const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+    return <Link className={isActive ? "active" : ""} to={to} {...props}>{children}</Link>
+};
 
 export default Header;
