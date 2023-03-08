@@ -2,18 +2,17 @@ import React from "react";
 
 function Home() {
     return (
-        <div className="homeContainer">
-            <div className="titleText">
-                <h1>
-                    Hi! It's me Adrian, and this is my Portfolio. <br/>
-                    I enjoy building websites just like this one! <br/>
-                    I hope you have as much fun checking it out as I did building it!
-                </h1>
+        <>
+            {/* <div className="row"></div> */}
+            <div className="container homeContainer col-10">
+                <div className="titleContainer">
+                    <h1>Adrian Kosnik</h1>
+                    <h2>Junior Web Developer</h2>
+                    <h3>That builds things for the internet.</h3>
+                </div>
+                <img className="portrait" src={require("../assets/images/adriankosnik-photo-small.JPG")} />
             </div>
-            <div className="image">
-                <img src="https://via.placeholder.com/500x500" alt="Adrian Kosnik looking at you" />
-            </div>
-        </div>
+        </>
     );
 };
 

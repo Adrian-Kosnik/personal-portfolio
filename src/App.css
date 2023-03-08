@@ -7,17 +7,56 @@
   font-size: 25px;
   font-family: poppins, sans-serif;
 } */
+/* * {
+  background-color: darkgray;
+  border: 1px limegreen solid;
+} */
+
+.appContainer {
+  height: 100vh;
+}
+
+.spacer {
+  height: 15%;
+}
+
+.portrait {
+  height: 600px;
+}
+
+.portraitDiv {
+  border: 1px limegreen solid;
+}
+
+.mainContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .container {
-  margin: 0 !important;
-  padding: 0 !important;
+  /* border: 1px limegreen solid; */
 }
 
 .homeContainer {
-  display: inline-flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100vh; */
+  /* position: relative; */
+}
+
+.subContainer {
+  position: absolute;
+  bottom: 0;
+}
+
+.imageDiv {
+  height: 400px;
+  width: 400px;
+  background-image: url("./assets/images/memoji.png");
+  background-repeat: no-repeat;
 }
 
 .masterContainer {
