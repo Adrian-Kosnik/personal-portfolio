@@ -7,8 +7,16 @@
   font-size: 25px;
   font-family: poppins, sans-serif;
 } */
-* {
-  background-color: lightblue;
+/* * {
+  background-color: darkgray;
+  border: 1px limegreen solid;
+} */
+
+.portrait {
+  height: 600px;
+}
+
+.portraitDiv {
   border: 1px limegreen solid;
 }
 
@@ -20,7 +28,7 @@
 }
 
 .container {
-  border: 1px limegreen solid;
+  /* border: 1px limegreen solid; */
 }
 
 .homeContainer {

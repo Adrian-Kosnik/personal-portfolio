@@ -2,21 +2,13 @@ import React from "react";
 
 function Home() {
     return (
-        <div className="container text-center homeContainer">
-            <div className="row titleText">
-                <div className="col">
-                    <h1>
-                        Hi! It's me Adrian, and this is my Portfolio. <br/>
-                        I enjoy building websites just like this one! <br/>
-                        I hope you have as much fun checking it out as I did building it!
-                    </h1>
+        <div className="container homeContainer col-10">
+                <div className="titleContainer">
+                    <h1>Adrian Kosnik</h1>
+                    <h2>Junior Web Developer</h2>
+                    <h3>That builds things for the internet.</h3>
                 </div>
-            </div>
-            <div className="row">
-                <div className="col"></div>
-                <div className="col imageDiv"></div>
-                <div className="col"></div>
-            </div>
+                <img className="portrait" src={require("../assets/images/adriankosnik-photo-small.JPG")} />
         </div>
     );
 };
