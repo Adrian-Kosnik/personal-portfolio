@@ -9,6 +9,14 @@
 } */
 * {
   background-color: lightblue;
+  border: 1px limegreen solid;
+}
+
+.mainContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {

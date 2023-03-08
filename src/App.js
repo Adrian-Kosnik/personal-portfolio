@@ -10,7 +10,11 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <div className='mainContainer container'>
+        <div className='container col-3'>
+          <Navbar />
+        </div>
+      </div>
       {/* <Header /> */}
       {/* <div className='container'>
         <Routes>
