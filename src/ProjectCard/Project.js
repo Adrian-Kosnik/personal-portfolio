@@ -7,7 +7,7 @@ function ProjectCard(props) {
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
                 <p className="card-text">{props.description}</p>
-                <a href={props.liveGithub} className="btn btn-primary">Check it!</a>
+                <a href={props.liveGithub} target="blank" className="btn btn-primary">Check it!</a>
             </div>
         </div>
     );
