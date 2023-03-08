@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Team Profile Generator",
+        "image": "https://via.placeholder.com/300x200",
+        "description": "Takes inputs from user and generates HTML page",
+        "liveGithub": "https://github.com/Adrian-Kosnik/team-profile-generator"
+    },
+    {
+        "id": 2,
+        "name": "README Generator",
+        "image": "https://via.placeholder.com/300x200",
+        "description": "Node.js application that builds a README file using user inputs.",
+        "liveGithub": "https://github.com/Adrian-Kosnik/readme-generator"
+    },
+    {
+        "id": 3,
+        "name": "Password Generator",
+        "image": "https://via.placeholder.com/300x200",
+        "description": "Browser based random password generator which takes inputs from user.",
+        "liveGithub": "https://adrian-kosnik.github.io/password-generator/"
+    },
+    {
+        "id": 4,
+        "name": "Code Quiz Game",
+        "image": "https://via.placeholder.com/300x200",
+        "description": "Quiz game which runs in browser",
+        "liveGithub": "https://adrian-kosnik.github.io/code-quiz-game/"
+    },
+    {
+        "id": 5,
+        "name": "Weather-dashboard",
+        "image": "https://via.placeholder.com/300x200",
+        "description": "Displays weather for a city of users choice",
+        "liveGithub": "https://adrian-kosnik.github.io/weather-dashboard/"
+    },
+    {
+        "id": 6,
+        "name": "Work Day Scheduler",
+        "image": "https://via.placeholder.com/300x200",
+        "description": "Simple calendar Application that allows user to save events for each hour of the day.",
+        "liveGithub": "https://adrian-kosnik.github.io/work-day-scheduler/"
+    }
+]

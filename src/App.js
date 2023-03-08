@@ -1,8 +1,8 @@
 import './App.css';
-import Header from './js/Header';
-import Home from './js/Home';
-import Project from './js/Project';
-import Contact from './js/Contact';
+import Header from './Header/Header';
+import Home from './Pages/Home';
+import ProjectGallery from './Pages/ProjectGallery';
+import Contact from './Pages/Contact';
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <div className='container'>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Project" element={<Project />} />
+          <Route path="/ProjectGallery" element={<ProjectGallery />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
       </div>
