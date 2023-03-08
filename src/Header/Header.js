@@ -14,7 +14,7 @@ function Header() {
                             <CustomLink className="nav-link" to="/">Home</CustomLink>
                         </li>
                         <li className="nav-item">
-                            <CustomLink className="nav-link" to="/Project">Projects</CustomLink>
+                            <CustomLink className="nav-link" to="/ProjectGallery">Projects</CustomLink>
                         </li>
                         <li className="nav-item">
                             <CustomLink className="nav-link" to="/Contact">Contact</CustomLink>
