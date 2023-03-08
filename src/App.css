@@ -12,6 +12,14 @@
   border: 1px limegreen solid;
 } */
 
+.appContainer {
+  height: 100vh;
+}
+
+.spacer {
+  height: 15%;
+}
+
 .portrait {
   height: 600px;
 }

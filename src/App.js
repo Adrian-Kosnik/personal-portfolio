@@ -9,7 +9,8 @@ import Pointer from './Header/Pointer';
 function App() {
 
   return (
-    <>
+    <div className='appContainer'>
+      <div className="spacer"></div>
       <div className='container col-3'>
         <Navbar />
         <Pointer />
@@ -21,7 +22,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
         </Routes>
       </div>
-    </>
+    </div>
   );
 }
 
