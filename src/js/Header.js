@@ -9,19 +9,23 @@ function Header() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
+                        {/* <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="./Home.js">Home</a>
+                        </li> */}
                         <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="/#">Home</a>
+                            <a className="nav-link active" href="/Home">Home</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="/#">Projects</a>
+                            <a className="nav-link" href="/Project">Projects</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="/#">Contact</a>
+                            <a className="nav-link" href="/Contact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-)};
+    );
+};
 
 export default Header;
