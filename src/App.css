@@ -7,6 +7,9 @@
   font-size: 25px;
   font-family: poppins, sans-serif;
 } */
+* {
+  background-color: lightblue;
+}
 
 .container {
   border: 1px limegreen solid;
