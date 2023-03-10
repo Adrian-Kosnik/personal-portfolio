@@ -2,7 +2,6 @@ import React from "react";
 import ProjectCard from "../ProjectCard/Project";
 import projects from "../projects.json";
 import Background from "../Wrapper/Background";
-import "./style.css";
 
 function ProjectGallery() {
   return (

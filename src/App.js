@@ -13,7 +13,12 @@ function App() {
       <div className="spacer"></div>
       <div className='container col-3'>
         <Navbar />
-        <Pointer />
+        <Routes>
+          <Route path="/" element={<Pointer />} />
+          <Route path="/personal-portfolio" element={<Pointer />} />
+          <Route path="/ProjectGallery" element={<Pointer />} />
+          <Route path="/Contact" element={<Pointer />} />
+        </Routes>
       </div>
       <div className='container'>
         <Routes>

@@ -1,6 +1,5 @@
 import React from "react";
 import Background from "../Wrapper/Background";
-import "./style.css";
 
 function Home() {
     return (
