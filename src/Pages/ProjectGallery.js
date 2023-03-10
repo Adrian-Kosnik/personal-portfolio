@@ -2,12 +2,12 @@ import React from "react";
 import Wrapper from "../Wrapper/Wrapper";
 import ProjectCard from "../ProjectCard/Project";
 import projects from "../projects.json";
+import Background from "../Wrapper/Background";
 
 function ProjectGallery() {
   return (
     <>
-      <h1>Projects</h1>
-      <Wrapper>
+      <Background>
         {projects.map((p) => {
           return (
             <ProjectCard
@@ -18,7 +18,7 @@ function ProjectGallery() {
             />
           );
         })}
-      </Wrapper>
+      </Background>
     </>
   );
 }

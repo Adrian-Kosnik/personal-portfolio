@@ -18,12 +18,13 @@ function App() {
       <div className='container'>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/personal-portfolio" element={<Home />} />
           <Route path="/ProjectGallery" element={<ProjectGallery />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
       </div>
     </div>
   );
-}
+};
 
 export default App;
