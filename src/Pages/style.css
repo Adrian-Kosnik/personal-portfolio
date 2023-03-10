@@ -8,6 +8,14 @@
     padding: 0 !important;
 }
 
+.backgroundFlex {
+    background-color: grey;
+    padding: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .titleContainer {
     padding: 5%;
 }

@@ -1,10 +1,11 @@
 import React from "react";
 import Background from "../Wrapper/Background";
+import "./style.css";
 
 function Home() {
     return (
         <>
-            <Background>
+            <Background className="">
             {/* <div className="container homeContainer col-10"> */}
                 <div className="titleContainer">
                     <h1>Adrian Kosnik</h1>

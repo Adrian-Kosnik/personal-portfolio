@@ -12,6 +12,21 @@
   border: 1px limegreen solid;
 } */
 
+.project-gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 1rem;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* @media screen and (min-width: 768px) {
+  .project-gallery {
+    grid-template-columns: repeat(3, 300px);
+  }
+} */
+
 .appContainer {
   height: 100vh;
 }
