@@ -1,15 +1,16 @@
-/* .App {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 62, 2, 0.5);
-  font-size: 25px;
-  font-family: poppins, sans-serif;
-} */
-/* * {
-  background-color: darkgray;
-  border: 1px limegreen solid;
+.project-gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 1rem;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* @media screen and (min-width: 768px) {
+  .project-gallery {
+    grid-template-columns: repeat(3, 300px);
+  }
 } */
 
 .appContainer {
@@ -33,18 +34,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.container {
-  /* border: 1px limegreen solid; */
-}
-
-.homeContainer {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; */
-  /* position: relative; */
 }
 
 .subContainer {
@@ -77,4 +66,91 @@
 .rightContainer {
   border: 1px limegreen solid;
   width: 50%;
+}
+
+/* Pages styling */
+
+.homeContainer {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 !important;
+}
+
+.backgroundFlex {
+  background-color: grey;
+  padding: 0 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleContainer {
+  padding: 5%;
+}
+
+.portrait {
+  height:  400px;
+}
+
+.outerPointerContainer {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+
+}
+
+#pointer {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 28px solid #555;
+}
+
+#pointer.active {
+  border-bottom: 28px solid red;
+}
+
+/* Navbar styling */
+
+.outerNavContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home {
+  width: 50px;
+  height: 50px;
+}
+
+.projects {
+  width: 50px;
+  height: 50px;
+}
+
+.contact {
+  width: 50px;
+  height: 50px;
+}
+
+/* Wrapper styling */
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+.Background {
+  background-color: grey;
+  padding: 0 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

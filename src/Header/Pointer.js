@@ -1,14 +1,18 @@
 import React from "react";
-import "./style.css";
 
 function Pointer() {
     return (
         <div className="outerPointerContainer">
-            <div className="pointer"></div>
-            <div className="pointer"></div>
-            <div className="pointer"></div>
+            <PointerDiv href="/" />
+            <PointerDiv href="/ProjectGallery"/>
+            <PointerDiv href="/Contact"/>
         </div>
     );
 };
 
+function PointerDiv({ href, ...props }) {
+    const path = window.location.pathname
+    return <div id="pointer" href={href} {...props} className={path === href ? "active" : ""}></div>
+};
+ 
 export default Pointer;
