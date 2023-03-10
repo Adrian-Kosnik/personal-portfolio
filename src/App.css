@@ -98,19 +98,38 @@
   display: flex;
   justify-content: space-around;
   list-style: none;
-
+  height: 25px;
 }
 
 #pointer {
   width: 0;
   height: 0;
-  border-left: 25px solid transparent;
+  /* border-left: 25px solid transparent;
   border-right: 25px solid transparent;
-  border-bottom: 28px solid #555;
+  border-bottom: 28px solid #555; */
+
+  border: 28px solid transparent;
+  border-top: 0px;
+  border-bottom: 28px solid red;
+
+  /* transition: .5s .5s, transform .5s;
+  left: 0;
+  transform: scaleY(0); */
+
+  opacity: 1;
+  transition: opacity 0.5s ease-out, border-bottom 0.5s ease-in;
 }
 
 #pointer.active {
   border-bottom: 28px solid red;
+  /* transition: left .5s, transform .5s .5s; */
+  /* left: 200px; */
+  /* transform: scaleY(1); */
+}
+
+#pointer.not-active {
+  border-bottom: 0px;
+  opacity: 0;
 }
 
 /* Navbar styling */
