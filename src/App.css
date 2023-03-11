@@ -21,53 +21,6 @@
   height: 15%;
 }
 
-.portrait {
-  height: 600px;
-}
-
-.portraitDiv {
-  border: 1px limegreen solid;
-}
-
-.mainContainer {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.subContainer {
-  position: absolute;
-  bottom: 0;
-}
-
-.imageDiv {
-  height: 400px;
-  width: 400px;
-  background-image: url("./assets/images/memoji.png");
-  background-repeat: no-repeat;
-}
-
-.masterContainer {
-  width: 100vw;
-  height: 90vh;
-  border: 1px limegreen solid;
-  display: inline-flex;
-  justify-content: space-evenly;
-  text-align: center;
-
-}
-
-.leftContainer {
-  border: 1px limegreen solid;
-  width: 50%;
-}
-
-.rightContainer {
-  border: 1px limegreen solid;
-  width: 50%;
-}
-
 /* Pages styling */
 
 .homeContainer {
@@ -76,14 +29,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 !important;
-}
-
-.backgroundFlex {
-  background-color: grey;
-  padding: 0 !important;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .titleContainer {
@@ -104,32 +49,25 @@
 #pointer {
   width: 0;
   height: 0;
-  /* border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  border-bottom: 28px solid #555; */
-
-  border: 28px solid transparent;
-  border-top: 0px;
-  border-bottom: 28px solid red;
-
-  /* transition: .5s .5s, transform .5s;
-  left: 0;
-  transform: scaleY(0); */
-
-  opacity: 1;
-  transition: opacity 0.5s ease-out, border-bottom 0.5s ease-in;
+  border-left: 28px solid transparent;
+  border-right: 28px solid transparent;
+  border-bottom: 0px solid #555;
+  transform-origin: bottom center;
+  transform: scaleY(0);
+  transition: transform 0.6s ease-in-out;
+  z-index: -1;
 }
 
 #pointer.active {
-  border-bottom: 28px solid red;
-  /* transition: left .5s, transform .5s .5s; */
-  /* left: 200px; */
-  /* transform: scaleY(1); */
+  border-bottom: 28px solid #555;
+  transform: scaleY(1);
+  z-index: -1;
 }
 
 #pointer.not-active {
   border-bottom: 0px;
-  opacity: 0;
+  transform: scaleY(0);
+  transition: transform 0.6s ease-in-out
 }
 
 /* Navbar styling */
@@ -169,7 +107,28 @@
 .Background {
   background-color: grey;
   padding: 0 !important;
+}
+
+.outerHomeContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.project-title-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 1rem;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.button-width {
+  width: 100%;
+}
+
+.background-container {
+  display: flex;
+  justify-content: center;
 }
