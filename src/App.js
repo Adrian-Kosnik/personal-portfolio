@@ -10,7 +10,6 @@ function App() {
 
   return (
     <div className='appContainer'>
-      <div className="spacer"></div>
       <div className='container col-3'>
         <Navbar />
         <Routes>
