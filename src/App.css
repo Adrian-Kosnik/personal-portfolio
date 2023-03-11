@@ -5,7 +5,6 @@
   gap: 1rem;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  border: 1px limegreen solid;
 }
 
 /* @media screen and (min-width: 768px) {
@@ -22,53 +21,6 @@
   height: 15%;
 }
 
-.portrait {
-  height: 600px;
-}
-
-.portraitDiv {
-  border: 1px limegreen solid;
-}
-
-.mainContainer {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.subContainer {
-  position: absolute;
-  bottom: 0;
-}
-
-.imageDiv {
-  height: 400px;
-  width: 400px;
-  background-image: url("./assets/images/memoji.png");
-  background-repeat: no-repeat;
-}
-
-.masterContainer {
-  width: 100vw;
-  height: 90vh;
-  border: 1px limegreen solid;
-  display: inline-flex;
-  justify-content: space-evenly;
-  text-align: center;
-
-}
-
-.leftContainer {
-  border: 1px limegreen solid;
-  width: 50%;
-}
-
-.rightContainer {
-  border: 1px limegreen solid;
-  width: 50%;
-}
-
 /* Pages styling */
 
 .homeContainer {
@@ -77,14 +29,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 !important;
-}
-
-.backgroundFlex {
-  background-color: grey;
-  padding: 0 !important;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .titleContainer {
@@ -178,5 +122,13 @@
   gap: 1rem;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  border: 1px limegreen solid;
+}
+
+.button-width {
+  width: 100%;
+}
+
+.background-container {
+  display: flex;
+  justify-content: center;
 }
