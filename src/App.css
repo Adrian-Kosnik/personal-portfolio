@@ -1,6 +1,11 @@
+/* font-family: 'Lexend Mega', sans-serif;
+font-family: 'Public Sans', sans-serif; */
+
 body {
   background: rgb(255,219,88);
   background: linear-gradient(40deg, rgba(255,219,88,1) 0%, rgba(255,160,122,1) 22%, rgba(255,192,203,1) 60%, rgba(196,161,255,1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .project-gallery {
@@ -19,6 +24,25 @@ body {
   }
 } */
 
+.nav-outer {
+  border-bottom: 3px black solid;
+  padding: 15px !important;
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  font-family: 'Lexend Mega', sans-serif;
+}
+
+.nav-ul li {
+  border: 3px black solid;
+  box-shadow: 5px 5px black;
+  border-radius: 3px;
+  background-color: #90EE90;
+  margin-right: 10px;
+  font-family: 'Public Sans', sans-serif;
+}
+
 .appContainer {
   height: 100vh;
 }
@@ -35,6 +59,22 @@ body {
 
 .titleContainer {
   padding: 5%;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.titleContainer h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.titleContainer h2 {
+  font-size: 3rem;
+  font-weight: medium;
+}
+
+.titleContainer h3 {
+  font-size: 2rem;
+  font-weight: medium;
 }
 
 .portrait {
@@ -112,6 +152,7 @@ body {
 .Background {
   /* background-color: grey; */
   padding: 0 !important;
+  margin-top: 150px;
 }
 
 .outerHomeContainer {
