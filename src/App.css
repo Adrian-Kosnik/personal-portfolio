@@ -5,6 +5,7 @@
   gap: 1rem;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
+  border: 1px limegreen solid;
 }
 
 /* @media screen and (min-width: 768px) {
@@ -162,7 +163,20 @@
 .Background {
   background-color: grey;
   padding: 0 !important;
+}
+
+.outerHomeContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.project-title-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 1rem;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  border: 1px limegreen solid;
 }

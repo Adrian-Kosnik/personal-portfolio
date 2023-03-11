@@ -7,6 +7,14 @@ function ProjectGallery() {
   return (
     <>
       <Background>
+        <div className="project-title-container">
+          <div>
+            <h1>Work</h1>
+            <p>These are my latest projects.</p>
+          </div>
+          <div className="col-2"></div>
+          <div className="col-2"></div>
+        </div>
         <div className="project-gallery">
           {projects.map((p) => {
             return (
