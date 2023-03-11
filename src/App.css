@@ -162,12 +162,23 @@ body {
 }
 
 .project-title-container {
+  font-family: 'Public Sans', sans-serif;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 300px);
+  grid-template-columns: repeat(300px);
   gap: 1rem;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.project-title-container div h1 {
+  font-weight: bold;
+}
+
+.project-title-container div p {
+  font-weight: medium;
 }
 
 .button-width {
