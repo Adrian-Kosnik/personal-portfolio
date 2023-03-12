@@ -5,11 +5,10 @@ function ProjectCard(props) {
         <div className="card" style={{width: "18rem", height: "100%"}}>
             <img src={props.image} className="card-img-top" alt={props.title} />
             <div className="card-body">
-                {/* <!-- Button trigger modal --> */}
-                <a type="button" class="card-button btn btn-primary button-width" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <a href={props.liveGithub} target="blank" type="button" class="card-button btn btn-primary button-width">
                     {props.title}
                 </a>
-                <p class="card-text">{props.description}</p>
+                <p className="card-text">{props.description}</p>
             </div>
         </div>
     );
