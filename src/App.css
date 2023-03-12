@@ -30,8 +30,17 @@ body {
 }
 
 .navbar-brand {
-  font-size: 1.9rem !important;
-  font-family: 'Lexend Mega', sans-serif;
+  /* font-size: 1.9rem !important;
+  font-family: 'Lexend Mega', sans-serif; */
+  padding: 0.5rem;
+  border: 3px black solid;
+  box-shadow: 5px 5px black;
+  border-radius: 3px;
+  color: black;
+  background-color: #90EE90;
+  margin-right: 10px;
+  font-family: 'Public Sans', sans-serif;
+  text-decoration: none;
 }
 
 .nav-ul li {

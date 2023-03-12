@@ -9,9 +9,11 @@ function Contact() {
   
       emailjs.sendForm('portfolio_form', 'template_ivaz5hh', form.current, 'mCyKOziVQpvM85gVO')
         .then((result) => {
-            console.log(result.text);
+            console.log(result.text)
+            alert("Message sent!");
         }, (error) => {
             console.log(error.text);
+            alert("There was a problem, try again.");
         });
     };
 
@@ -32,10 +34,6 @@ function Contact() {
                                 <h1>Any questions?</h1>
                                 <h2>If so drop me a message, I'd love to hear form you!</h2>
                             </div>
-
-
-
-
                             <form ref={form} onSubmit={sendEmail} className="container">
                                 <div className="name-email-container">
                                     <input type="text" name="user_name" className="name-input" placeholder="Name" />
