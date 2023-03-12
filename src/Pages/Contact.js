@@ -1,6 +1,20 @@
-import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('portfolio_form', 'template_ivaz5hh', form.current, 'mCyKOziVQpvM85gVO')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
     return (
         <div className="container outer-contact-container col-12">
             <div className="container inner-outer-contact-container col-12">
@@ -18,16 +32,23 @@ function Contact() {
                                 <h1>Any questions?</h1>
                                 <h2>If so drop me a message, I'd love to hear form you!</h2>
                             </div>
-                            <form className="container">
+
+
+
+
+                            <form ref={form} onSubmit={sendEmail} className="container">
                                 <div className="name-email-container">
-                                    <input className="name-input" placeholder="Name" />
-                                    <input className="email-input" placeholder="Email" />
+                                    <input type="text" name="user_name" className="name-input" placeholder="Name" />
+                                    <input type="email" name="user_email" className="email-input" placeholder="Email" />
                                 </div>
                                 <div className="subject-container">
-                                    <input className="subject-input" placeholder="Subject" />
+                                    <input type="text" name="user_subject" className="subject-input" placeholder="Subject" />
                                 </div>
                                 <div className="message-container">
-                                    <textarea className="message-textarea" rows="10" placeholder="Message" />
+                                    <textarea name="message" className="message-textarea" rows="10" placeholder="Message" />
+                                </div>
+                                <div className="submit-container">
+                                    <button type="submit" value="Send" className="submit-button">Submit</button>
                                 </div>
                             </form>
                     </div>

@@ -246,6 +246,12 @@ body {
 
 }
 
+.submit-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
 .message-textarea {
   width: 100%;
   resize: none;
@@ -326,6 +332,7 @@ body {
   width: 100vw;
   display: flex;
   justify-content: center;
+  margin-bottom: 2.5rem;
 }
 
 .form-contact-container {
@@ -367,6 +374,20 @@ body {
   margin-right: 10px;
   font-family: 'Public Sans', sans-serif;
   text-decoration: none;
+}
+
+.submit-button {
+  padding: 0.5rem;
+  width: 8rem;
+  border: 3px black solid;
+  box-shadow: 5px 5px black;
+  border-radius: 3px;
+  color: black;
+  background-color: #90EE90;
+  margin-right: 10px;
+  font-family: 'Public Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
 }
 
 .email-button:hover span {
