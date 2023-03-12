@@ -15,11 +15,14 @@ function Navbar() {
                             <Link className="nav-link active" aria-current="page" to="/ProjectGallery">Projects</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/Contact">Contact</Link>
+                            <Link className="nav-link" to="/Skills">My Skills</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/Resume">Resume</Link>
+                            <Link className="nav-link" to="/Contact">Contact</Link>
                         </li>
+                        {/* <li className="nav-item">
+                            <Link className="nav-link" to="/Resume">Resume</Link>
+                        </li> */}
                     </ul>
                 </div>
             </div>

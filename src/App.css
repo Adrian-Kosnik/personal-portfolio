@@ -207,38 +207,36 @@ body {
   text-decoration: underline;
 }
 
+::placeholder {
+  color: black;
+}
+
 .name-email-container {
-  /* display: flex;
-  justify-content: center; */
+
 }
 
 .name-input {
-  /* margin-bottom: 10px; */
+
 }
 
 .email-input {
-  /* margin-bottom: 10px; */
+
 }
 
 .subject-container {
-  /* display: flex;
-  justify-content: center; */
+
 }
 
 .subject-input {
-  /* margin: 10px; */
+
 }
 
 .message-container {
-  /* display: flex;
-  justify-content: center; */
-  /* height: 500px; */
+
 }
 
 .message-textarea {
-  border: none;
-  /* margin: 10px; */
-  /* height: 50vh; */
+
 }
 
 .card {
@@ -260,10 +258,14 @@ body {
 }
 
 .outer-contact-container {
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+}
+
+.inner-outer-contact-container {
+
 }
 
 .contact-container {
@@ -271,33 +273,73 @@ body {
   height: 80vh;
   margin: 0;
   padding: 10px;
-  background-color: white;
+  background-color: #87CEEB;
   border-radius: 5px;
   border: 5px black solid;
   box-shadow: 15px 15px black;
-  display: grid;
-  grid-template-columns: repeat(3);
-  grid-template-rows: repeat(1, 1fr);
-  align-content: center;
-  justify-items: center;
 }
 
-.left-contact-container {
-  grid-column: 1;
-  border: 5px black solid;
-  border-radius: 3px;
-  height: 95%;
-  width: 90%;
-  margin-top: 0.8rem;
-}
-
-.right-contact-container {
-  grid-column: 2;
-  background-color: #F4D738;
+.title-contact-container {
+  background-color: #87CEEB;
   border: 5px black solid;
   box-shadow: 10px 10px black;
   border-radius: 3px;
-  height: 95%;
-  width: 90%;
+}
+
+.title-contact-container h1 {
+  padding-left: 2%;
+}
+
+.contact-list-titles {
+
+}
+
+.contact-list-values {
+  direction: rtl;
+}
+
+.contact-lists-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-contact-container-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.form-contact-container {
+  background-color: #87CEEB;
+  border: 5px black solid;
+  box-shadow: 10px 10px black;
+  border-radius: 5px;
+  height: 250px;
+  width: 250px;
   margin-top: 0.8rem;
+}
+
+.input-container-title {
+  margin-left: 10%;
+}
+
+.input-container-title h1 {
+  font-size: 1rem;
+}
+
+.input-container-title h2 {
+  font-size: 1rem;
+}
+
+.contact-button {
+  padding: 0.5rem;
+  border: 3px black solid;
+  box-shadow: 5px 5px black;
+  border-radius: 3px;
+  color: black;
+  background-color: #90EE90;
+  margin-right: 10px;
+  font-family: 'Public Sans', sans-serif;
+  text-decoration: none;
 }
