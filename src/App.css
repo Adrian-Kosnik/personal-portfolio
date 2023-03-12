@@ -272,7 +272,6 @@ body {
 }
 
 .outer-contact-container {
-  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -294,7 +293,7 @@ body {
 }
 
 .title-contact-container {
-  margin-top: 4rem;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
   background-color: #87CEEB;
   border: 5px black solid;
