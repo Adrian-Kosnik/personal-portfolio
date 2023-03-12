@@ -6,14 +6,11 @@ import Background from "../Wrapper/Background";
 function ProjectGallery() {
   return (
     <>
-      <Background>
+      {/* <Background> */}
         <div className="project-title-container">
           <div>
-            <h1>Work</h1>
-            <p>These are my latest projects.</p>
+            <h1>Here are some of my recent projects.</h1>
           </div>
-          <div className="col-2"></div>
-          <div className="col-2"></div>
         </div>
         <div className="project-gallery">
           {projects.map((p) => {
@@ -27,7 +24,7 @@ function ProjectGallery() {
             );
           })}
         </div>
-      </Background>
+      {/* </Background> */}
     </>
   );
 }

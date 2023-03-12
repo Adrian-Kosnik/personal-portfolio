@@ -1,20 +1,30 @@
 import React from "react";
-import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
-        <div className="outerNavContainer">
-            <CustomLink to="/"><img src={require("../assets/icons/home.png")} className="home" /></CustomLink>
-            <CustomLink to="/ProjectGallery"><img src={require("../assets/icons/briefcase.png")} className="projects" /></CustomLink>
-            <CustomLink to="/Contact"><img src={require("../assets/icons/envelope.png")} className="contact" /></CustomLink>
-        </div>
+        <nav className="nav-outer navbar navbar-expand-lg bg-light">
+            <div className="container-fluid">
+                <Link className="navbar-brand" to="/">AK</Link>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="nav-ul navbar-nav ms-auto">
+                        <li className="nav-item">
+                            <Link className="nav-link active" aria-current="page" to="/ProjectGallery">Projects</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/Contact">Contact</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/Resume">Resume</Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     );
-};
-
-function CustomLink({to, children, ...props}) {
-    const resolvedPath = useResolvedPath(to);
-    const isActive = useMatch({ path: resolvedPath.pathname, end: true })
-    return <Link className={isActive ? "active" : ""} to={to} {...props}>{children}</Link>
 };
 
 export default Navbar;
