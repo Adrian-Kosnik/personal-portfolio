@@ -244,9 +244,33 @@ body {
 .card {
   border: 4px black solid !important;
   box-shadow: 10px 10px black;
+  font-family: 'Public Sans', sans-serif;
 }
 
 .card-button {
   border: 3px black solid !important;
   box-shadow: 5px 5px black;
+  color: black !important;
+  background-color: #87CEEB !important;
+}
+
+.card-text {
+  text-align: center;
+  padding-top: 1.5rem !important;
+}
+
+.outer-contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.contact-container {
+  width: 70vw;
+  height: 70vh;
+  background-color: white;
+  border-radius: 5px;
+  border: 5px black solid;
+  box-shadow: 15px 15px black;
 }
