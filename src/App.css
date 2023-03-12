@@ -208,37 +208,37 @@ body {
 }
 
 .name-email-container {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .name-input {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .email-input {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .subject-container {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .subject-input {
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 .message-container {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   /* height: 500px; */
 }
 
 .message-textarea {
   border: none;
-  margin: 10px;
-  height: 50vh;
+  /* margin: 10px; */
+  /* height: 50vh; */
 }
 
 .card {
@@ -268,9 +268,36 @@ body {
 
 .contact-container {
   width: 70vw;
-  height: 70vh;
+  height: 80vh;
+  margin: 0;
+  padding: 10px;
   background-color: white;
   border-radius: 5px;
   border: 5px black solid;
   box-shadow: 15px 15px black;
+  display: grid;
+  grid-template-columns: repeat(3);
+  grid-template-rows: repeat(1, 1fr);
+  align-content: center;
+  justify-items: center;
+}
+
+.left-contact-container {
+  grid-column: 1;
+  border: 5px black solid;
+  border-radius: 3px;
+  height: 95%;
+  width: 90%;
+  margin-top: 0.8rem;
+}
+
+.right-contact-container {
+  grid-column: 2;
+  background-color: #F4D738;
+  border: 5px black solid;
+  box-shadow: 10px 10px black;
+  border-radius: 3px;
+  height: 95%;
+  width: 90%;
+  margin-top: 0.8rem;
 }

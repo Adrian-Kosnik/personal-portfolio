@@ -12,23 +12,43 @@ function Contact() {
         //             <li>Resume: <a href="/">My CV PDF</a></li>
         //         </ul>
         //     </div>
-        //     <div className="input-container">
-        //         <form>
-        //             <div className="name-email-container">
-        //                 <input className="name-input col-4" placeholder="Name" />
-        //                 <input className="email-input col-4" placeholder="Email" />
-        //             </div>
-        //             <div className="subject-container">
-        //                 <input className="subject-input col-8" placeholder="Subject" />
-        //             </div>
-        //             <div className="message-container">
-        //                 <textarea className="message-textarea col-8" placeholder="Message" />
-        //             </div>
-        //         </form>
-        //     </div>
+            // <div className="input-container">
+            //     <form>
+            //         <div className="name-email-container">
+            //             <input className="name-input col-4" placeholder="Name" />
+            //             <input className="email-input col-4" placeholder="Email" />
+            //         </div>
+            //         <div className="subject-container">
+            //             <input className="subject-input col-8" placeholder="Subject" />
+            //         </div>
+            //         <div className="message-container">
+            //             <textarea className="message-textarea col-8" placeholder="Message" />
+            //         </div>
+            //     </form>
+            // </div>
         // </div>
         <div className="outer-contact-container">
-            <div className="contact-container"></div>
+            <div className="contact-container">
+                <div className="left-contact-container">
+                    <h1>Contact</h1>
+                </div>
+                <div className="right-contact-container">
+                    <div className="input-container">
+                        <form>
+                            <div className="name-email-container">
+                                <input className="name-input col-4" placeholder="Name" />
+                                <input className="email-input col-4" placeholder="Email" />
+                            </div>
+                            <div className="subject-container">
+                                <input className="subject-input col-8" placeholder="Subject" />
+                            </div>
+                            <div className="message-container">
+                                <input className="message-textarea col-8" placeholder="Message" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
