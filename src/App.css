@@ -219,11 +219,15 @@ body {
 .name-input {
   width: 50%;
   margin-right: 1%;
+  border: 4px black solid;
+  box-shadow: 5px 5px black;
 }
 
 .email-input {
   width: 50%;
   margin-left: 1%;
+  border: 4px black solid;
+  box-shadow: 5px 5px black;
 }
 
 .subject-container {
@@ -234,6 +238,8 @@ body {
   width: 100%;
   margin-top: 2%;
   margin-bottom: 2%;
+  border: 4px black solid;
+  box-shadow: 5px 5px black;
 }
 
 .message-container {
@@ -243,6 +249,8 @@ body {
 .message-textarea {
   width: 100%;
   resize: none;
+  border: 4px black solid;
+  box-shadow: 5px 5px black;
 }
 
 .card {
@@ -360,4 +368,12 @@ body {
   margin-right: 10px;
   font-family: 'Public Sans', sans-serif;
   text-decoration: none;
+}
+
+.email-button:hover span {
+  display: none;
+}
+
+.email-button:hover:before {
+  content: "adriankosnik67@gmail.com";
 }

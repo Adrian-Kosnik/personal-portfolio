@@ -7,9 +7,9 @@ function Contact() {
                 <div className="container title-contact-container col-6">
                     <h1>Get in touch!</h1>
                     <div className="contact-lists-container">
-                        <a className="contact-button" href="mailto:adriankosnik67@gmail.com">Email</a>
-                        <a className="contact-button" href="mailto:adriankosnik67@gmail.com">Linkedin</a>
-                        <a className="contact-button" href="mailto:adriankosnik67@gmail.com">Github</a>
+                        <a type="button" className="email-button contact-button" href="mailto:adriankosnik67@gmail.com"><span>Email</span></a>
+                        <a type="button" className="contact-button" target="blank" href="https://www.linkedin.com/in/adrian-kosnik-4a0945201/">Linkedin</a>
+                        <a type="button" className="contact-button" target="blank" href="https://github.com/Adrian-Kosnik">Github</a>
                     </div>
                 </div>
                 <div className="container form-contact-container-container col-8">
