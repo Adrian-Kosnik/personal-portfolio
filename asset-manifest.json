@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.2cec6b75.css",
-    "main.js": "/personal-portfolio/static/js/main.126cc39f.js",
+    "main.css": "/personal-portfolio/static/css/main.2f1e945a.css",
+    "main.js": "/personal-portfolio/static/js/main.be0afa04.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/adriankosnik-photo-small.JPG": "/personal-portfolio/static/media/adriankosnik-photo-small.38d1d050a1073209f310.JPG",
+    "static/media/Adrian-Kosnik-CV.pdf": "/personal-portfolio/static/media/Adrian-Kosnik-CV.6092de958dd6c2b88363.pdf",
     "index.html": "/personal-portfolio/index.html",
-    "main.2cec6b75.css.map": "/personal-portfolio/static/css/main.2cec6b75.css.map",
-    "main.126cc39f.js.map": "/personal-portfolio/static/js/main.126cc39f.js.map",
+    "main.2f1e945a.css.map": "/personal-portfolio/static/css/main.2f1e945a.css.map",
+    "main.be0afa04.js.map": "/personal-portfolio/static/js/main.be0afa04.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cec6b75.css",
-    "static/js/main.126cc39f.js"
+    "static/css/main.2f1e945a.css",
+    "static/js/main.be0afa04.js"
   ]
 }
