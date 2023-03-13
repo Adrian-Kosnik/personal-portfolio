@@ -70,6 +70,8 @@ body {
   /* margin-right: 5rem; */
   padding: 5%;
   font-family: 'Public Sans', sans-serif;
+  white-space: nowrap;
+  /* width: 50rem; */
 }
 
 .titleContainer h1 {
@@ -165,7 +167,7 @@ body {
   margin-top: 150px;
 } */
 
-.booty {
+.outer-outerHomeContainer {
   display: flex;
   justify-content: center;
   align-items: center;
