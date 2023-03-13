@@ -3,42 +3,42 @@
         "id": 1,
         "title": "Team Profile Generator",
         "image": "https://i.pinimg.com/564x/29/3f/a2/293fa20eae1ec2711b244ad5c4ecf263.jpg",
-        "description": "Takes inputs from user and generates HTML page",
+        "description": "This application is built using Node.js. It takes in information from user and generates a HTML file.",
         "liveGithub": "https://github.com/Adrian-Kosnik/team-profile-generator"
     },
     {
         "id": 2,
         "title": "README Generator",
         "image": "https://i.pinimg.com/564x/29/3f/a2/293fa20eae1ec2711b244ad5c4ecf263.jpg",
-        "description": "Node.js application that builds a README file using user inputs.",
+        "description": "This application is built using Node.js. It creates a README file using user inputs.",
         "liveGithub": "https://github.com/Adrian-Kosnik/readme-generator"
     },
     {
         "id": 3,
         "title": "Password Generator",
         "image": "https://i.pinimg.com/564x/29/3f/a2/293fa20eae1ec2711b244ad5c4ecf263.jpg",
-        "description": "Browser based random password generator which takes inputs from user.",
+        "description": "This application is built using Javascript, CSS and HTML. Browser based password generator app which generates a random passowrd based on user inputs.",
         "liveGithub": "https://adrian-kosnik.github.io/password-generator/"
     },
     {
         "id": 4,
         "title": "Code Quiz Game",
         "image": "https://i.pinimg.com/564x/29/3f/a2/293fa20eae1ec2711b244ad5c4ecf263.jpg",
-        "description": "Quiz game which runs in browser",
+        "description": "This application is built using Javascript, CSS and HTML. A quiz game in which player answers as many code related questions as they can before the time runs out!",
         "liveGithub": "https://adrian-kosnik.github.io/code-quiz-game/"
     },
     {
         "id": 5,
         "title": "Weather-dashboard",
         "image": "https://i.pinimg.com/564x/29/3f/a2/293fa20eae1ec2711b244ad5c4ecf263.jpg",
-        "description": "Displays weather for a city of users choice",
+        "description": "This application is built using Javascript, jQuery, Bootstrap, CSS and HTML. Weather dashboard for a city of users choice.",
         "liveGithub": "https://adrian-kosnik.github.io/weather-dashboard/"
     },
     {
         "id": 6,
         "title": "Work Day Scheduler",
         "image": "https://i.pinimg.com/564x/29/3f/a2/293fa20eae1ec2711b244ad5c4ecf263.jpg",
-        "description": "Simple calendar Application that allows user to save events for each hour of the day.",
+        "description": "This application is built using Moment.js, Javascript, jQuery, Bootstrap, CSS and HTML. Simple calendar Application that allows user to save events for each hour of the day.",
         "liveGithub": "https://adrian-kosnik.github.io/work-day-scheduler/"
     }
 ]
