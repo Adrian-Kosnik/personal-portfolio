@@ -67,8 +67,11 @@ body {
 }
 
 .titleContainer {
+  /* margin-right: 5rem; */
   padding: 5%;
   font-family: 'Public Sans', sans-serif;
+  white-space: nowrap;
+  /* width: 50rem; */
 }
 
 .titleContainer h1 {
@@ -158,16 +161,26 @@ body {
   overflow: auto;
 }
 
-.Background {
-  /* background-color: grey; */
+/* .Background {
+  background-color: grey;
   padding: 0 !important;
   margin-top: 150px;
+} */
+
+.outer-outerHomeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
 
 .outerHomeContainer {
+  /* height: 100vh; */
+  /* margin-top: 6rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* border: 2px limegreen solid; */
 }
 
 .project-title-container {
